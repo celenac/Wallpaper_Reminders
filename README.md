@@ -22,6 +22,18 @@ Settings details:
 - text position: the x, y positions of the start of the text. ((0,0) is the top left corner of the background and x and y increase rightwards and downwrads, respecively).
 
 
+My Reminders application file
+- Click "Save" to save your changes!
+- You cannot reedit your notes. To make changes to an existing note
+    1. click on the note
+    2. edit the note in the text line
+    3. hit Enter (or click Add). A new note is now created.
+    4. Delete the previous version of the note.
+
+Wallpaper Reminders
+- Run this application to generate a new wallpaper for the day.
+
+
 
 For Windows, 
 use Task Scheduler.
