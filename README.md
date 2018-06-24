@@ -37,4 +37,6 @@ Wallpaper Reminders
 
 For Windows, 
 use Task Scheduler.
+Go to General and select "Run whether user is logged on or not"
+Go to Triggers and edit the time of day you want your background to change automatically. 
 
