@@ -1,38 +1,51 @@
 # Wallpaper Reminders
 Creates simple desktop wallpapers with customized reminders.
 
-Wallpaper Reminders picks a note randomly from the your collection of notes. You can add or remove notes to and from the collection at any time.
-The notes can be used in any way that you want. They can be reminders, quotes, string patterns, etc.
+Wallpaper Reminders picks a note randomly from the your collection of notes. You can add or remove notes to and from the collection at any time. The notes can be used in any way that you want. They can be reminders, quotes, string patterns, etc.
 
 Wallpaper Reminders then creates a simple random solid-colored desktop wallpaper displaying the note. 
 Schedule a frequency to run the application to have daily, weekly, or monthly reminders.
 
-Open My Reminders to edit, add, remove your collection of notes.
-Run Wallpaper Reminders to genreate your wallpaper. 
-Schedule the running of Wallpaper Reminders to get periodic wallpaper updates.
+<br /> 
 
+# Table of Contents
+- [Overview](https://github.com/celenac/Wallpaper_Reminders#overview)
+- [What is included](https://github.com/celenac/Wallpaper_Reminders#what-is-included)
+- [How to download](https://github.com/celenac/Wallpaper_Reminders#how-to-download-wallpaper-reminders)
+- [How to set up Wallpaper Reminders](https://github.com/celenac/Wallpaper_Reminders#setting-up-wallpaper-reminders)
+- [How to customize the generated backgrounds](https://github.com/celenac/Wallpaper_Reminders#how-to-change-preferences)
 
-## What is included
-### My Reminders
+<br />
+
+# Overview
+1. Open My Reminders to edit, add, remove your collection of notes.
+2. Run Wallpaper Reminders to genreate your wallpaper. 
+3. Schedule the running of Wallpaper Reminders to get periodic wallpaper updates.
+
+<br />
+
+# What is included
+## My Reminders
 The My Reminders application file is where you add, edit, and remove the notes that will be randomly displayed on your background.
-    #### Tips on using My Reminders:
-    - Click "Save" to save your changes!
-    - You cannot reedit your notes. To make changes to an existing note
-        1. click on the note
-        2. edit the note in the text line
-        3. hit Enter (or click Add). A new note is now created.
-        4. Delete the previous version of the note.
-### Wallpaper Reminders
+### Tips on using My Reminders:
+- Click "Save" to save your changes!
+- You cannot reedit your notes. To make changes to an existing note
+    1. click on the note
+    2. edit the note in the text line
+    3. hit Enter (or click Add). A new note is now created.
+    4. Delete the previous version of the note.
+## Wallpaper Reminders
 Running this application will generate a new wallpaper for the day.
 
+<br />
 
 
-## How to download Wallpaper Reminders
+# How to download Wallpaper Reminders
 Download "application" folder in the "build" folder and save it somewhere on your computer.
 
+<br />
 
-
-## Setting up Wallpaper Reminders
+# Setting up Wallpaper Reminders
 For Windows, use **Task Scheduler**:
 
 ![](reference_images/Windows%20Task%20Scheduler%20Wallpaper%20Reminders.JPG)
@@ -87,10 +100,11 @@ For Windows, use **Task Scheduler**:
 
 9. Wallpaper Reminders is not set up to run every day on your Windows computer!
 
+<br />
 
-## How to change preferences
+# How to change preferences
 To change the appearance of the backgrounds generated, edit the "settings.txt" file. 
-### Settings details:
+## Settings details:
 - font size: size of the text on the background (in px)
 - font: the name of the font file for the text. To change the font, add a copy of the font file to the /fonts folder and change the value of this field to the name of that file.  
 - paragraph width: the width that the text spans on the background
