@@ -1,6 +1,5 @@
-#!/usr/bin/python
 """
-Notes functionality code: https://www.techrepublic.com/article/a-quickstart-to-building-gui-based-applications-in-python/
+Tkinter notes UI source citation: https://www.techrepublic.com/article/a-quickstart-to-building-gui-based-applications-in-python/
 """
 
 from tkinter import *
@@ -19,7 +18,7 @@ def Remove():
 	listbox.delete(ANCHOR)	
 
 def Save():
-	f = open("notes.db", "wb")	
+	f = open("my reminders.db", "wb")	
 	notes = listbox.get(0, END)
 	pickle.dump(notes, f)
 
@@ -62,7 +61,7 @@ textframe.pack(fill=X)
 listframe.pack(fill=BOTH, expand=1)
 
 try:
-	f = open("notes.db", "rb")
+	f = open("my reminders.db", "rb")
 	notes = pickle.load(f)
 	for item in notes:
 		listbox.insert(END,item)

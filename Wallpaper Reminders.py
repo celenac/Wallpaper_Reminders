@@ -5,8 +5,6 @@ import datetime, random, textwrap
 from PIL import Image, ImageDraw, ImageFont
 
 
-# Simply click on the exe file to run a test image ewit hthe current settings
-
 class Application:
 	def __init__(self):
 		self.read_settings()
@@ -23,16 +21,15 @@ class Application:
 
 
 	def pick_random_note(self):
-		f = open("notes.db", "rb")
+		f = open("my reminders.db", "rb")
 		notes = pickle.load(f)
 		text = random.choice(notes)
 		f.close()
 		return text
 
 	def default_settings(self):
-		# instructions in read_me file
 		settings = {}
-		settings['text position'] = (50,50) # left, center, right
+		settings['text position'] = (50,50) 
 		settings['paragraph width'] = 10
 		settings['background color'] = {}
 		settings['background color']['red'] = (0, 255)
@@ -74,7 +71,6 @@ class Application:
 	def add_text_to_image(self, text, image, file_name):
 		""" TEXT """
 		# font
-
 		font = ImageFont.truetype('fonts/' + self.font, size = self.font_size)
 
 		# text color
@@ -83,7 +79,6 @@ class Application:
 		else: 
 			text_color = 'rgb(0,0,0)' # black
 			
-	
 		formatted_msg = textwrap.wrap(text, width = self.paragraph_width)
 
 		# insert text onto image
@@ -106,45 +101,8 @@ class Application:
 		return "-".join([str(now.month), str(now.day), str(now.year), "wallpaper.png"])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-Project folder setup:
-\application
-	\wallpapers
-		bg1.png
-		bg2.png
-		...
-	\fonts
-	application.py	
-"""
-
-
-
-
-
-
-
-
-
 def main():
-	# Get random text from notes
 	application = Application()
-
 
 
 if __name__ == '__main__':

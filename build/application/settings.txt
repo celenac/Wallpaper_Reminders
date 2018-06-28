@@ -1,0 +1,24 @@
+{
+    "font": "ELEPHNT.ttf",
+    "text position": [
+        500,
+        400
+    ],
+    "paragraph width": 50,
+    "background color": {
+        "green": [
+            0,
+            255
+        ],
+        "red": [
+            0,
+            255
+        ],
+        "blue": [
+            0,
+            255
+        ]
+    },
+    "font size": 50,
+    "text color": "white"
+}
