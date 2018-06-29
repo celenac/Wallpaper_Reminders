@@ -1,10 +1,6 @@
 # Wallpaper Reminders
-Creates simple desktop wallpapers with customized reminders.
+Automatic, customized reminders on your desktop daily. 
 
-Wallpaper Reminders picks a note randomly from the your collection of notes. You can add or remove notes to and from the collection at any time. The notes can be used in any way that you want. They can be reminders, quotes, string patterns, etc.
-
-Wallpaper Reminders then creates a simple random solid-colored desktop wallpaper displaying the note. 
-Schedule a frequency to run the application to have daily, weekly, or monthly reminders.
 
 <br /> 
 
@@ -18,6 +14,17 @@ Schedule a frequency to run the application to have daily, weekly, or monthly re
 <br />
 
 # Overview
+
+## What does Wallpaper Reminders do?
+Wallpaper Reminders picks a note randomly from the your collection of notes. You can add or remove notes to and from the collection at any time. The notes can be used in any way that you want. They can be reminders, quotes, string patterns, etc.
+
+Wallpaper Reminders then creates a simple random solid-colored desktop wallpaper displaying the note.
+You can view samples of backgrounds in the **wallpapers** folder.
+
+Schedule a frequency to run the application to have daily, weekly, or monthly reminders.
+
+## How you use Wallpaper Reminders (the general flow)
+
 1. Open My Reminders to edit, add, remove your collection of notes.
 2. Run Wallpaper Reminders to genreate your wallpaper. 
 3. Schedule the running of Wallpaper Reminders to get periodic wallpaper updates.
